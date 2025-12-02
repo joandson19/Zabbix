@@ -4,6 +4,8 @@
 
 ## Instale as dependências 
 ```
+# apt update && apt upgrade -y
+
 # apt install -y chromium nodejs npm
 
 # cd /usr/lib/zabbix/externalscripts
@@ -47,4 +49,5 @@
 key = downdetector["whatsapp"]
 Intervalo de atualização = 5m <-- Não abuse, deixe o tempo justo, não reduza tanto.
 JSONPath = $.status
+
 ``
